@@ -1,14 +1,14 @@
-# 🌸 Sakura Digital Agency
+# Sakura Digital Agency
 
 Este proyecto corresponde a una página web básica para una agencia digital ficticia, desarrollada con HTML, CSS y JavaScript. Su objetivo es servir como práctica de estructura web, estilos y manejo básico de formularios.
 
-## 🚀 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - HTML5
 - CSS3
 - JavaScript (vanilla)
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 agencia-web-taller/
 │
@@ -20,7 +20,7 @@ agencia-web-taller/
 └── README.md
 
 
-## 🎯 Funcionalidades
+## Funcionalidades
 
 - Página principal con navegación interna
 - Sección de servicios
@@ -28,7 +28,7 @@ agencia-web-taller/
 - Validación simple de campos
 - Interacción mediante JavaScript (mensaje de confirmación)
 
-## 🧾 Formulario
+## Formulario
 
 El formulario solicita:
 
@@ -38,8 +38,3 @@ El formulario solicita:
 
 Actualmente, el envío del formulario es simulado mediante JavaScript (no envía datos a un servidor).
 
-## ▶️ Cómo ejecutar el proyecto
-
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/javieracolombo/agencia-web-taller.git
