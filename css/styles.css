@@ -67,3 +67,10 @@ button:hover {
     color: #d63384;
     font-weight: bold;
 }
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  color: white;
+  margin-top: 20px;
+}
