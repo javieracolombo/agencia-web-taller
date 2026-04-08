@@ -22,9 +22,15 @@ nav a {
 }
 
 section {
+    /* centrado con espacios laterales */
+    max-width: 1100px;   /* ancho de lectura central */
+    margin: 20px auto;   /* centra y deja espacio a los lados */
     padding: 40px;
-
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(255, 182, 193, 0.3);
 }
+
 
 section {
     background: white;
@@ -67,10 +73,36 @@ button:hover {
     color: #d63384;
     font-weight: bold;
 }
+
+.seccion-flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px auto;   /* mantener centrado */
+    max-width: 1000px;
+    padding: 0 10px;     /* pequeño relleno interior */
+}
+
+.seccion-flex img {
+    flex: 1 1 45%;       /* permite ajuste flexible */
+    max-width: 450px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.seccion-flex div {
+    flex: 1 1 55%;
+}
+
+.seccion-flex.invertido {
+    flex-direction: row-reverse;
+}
 footer {
   text-align: center;
-  padding: 20px;
-  background-color: #111;
+  padding: 10px;
+  background-color: #f3a6c0;
   color: white;
   margin-top: 20px;
+  font-size: 14px;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
 }
